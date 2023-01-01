@@ -17,17 +17,17 @@ element=qs('.cssSelector')
 elements=qsa('.cssSelector')
 //querySelectorAll
 ```
-###Check empty string
+### Check empty string
 ```javascript
 empty(str)
 //returns true if string  is empty
 ```
-###Check if string contains only spaces
+### Check if string contains only spaces
 ```javascript
 isspace(str)
 //returns true if string contains only spaces
 ```
-###innerHTML,append, prepend
+### innerHTML,append, prepend
 ```javascript
 html(element,str)
 //change innerHtml 
@@ -36,7 +36,7 @@ append(element,str)
 prepend(element,str)
 //prepend / add before  in a html element
 ```
-###Hide,show, css
+### Hide,show, css
 ```javascript
 hide(element)
 //hides the element {display:none}
@@ -51,7 +51,7 @@ css(qs("div"),{
 })
 */
 ```
-###HTML attributes
+### HTML attributes
 ```javascript
 attr(element, attr, value)
 /* performs setAttribute is value is passed or retuns  getAttribute
@@ -64,7 +64,7 @@ var getattr=attr(qs("div"),"title"); // hello
 returns the value hello
 */
 ```
-### Css class
+###  Css class
 ```javascript
 hasClass(element, className)
 //returns the classname
@@ -75,7 +75,7 @@ hasClass(element, className)
 addClass(element, className)
 //adds class
 ```
-###Click events
+### Click events
  on(element, event, callback)
  for static elements
  **and**
@@ -91,12 +91,12 @@ live(".btn","click",function(){
 	alert("clicked");
 })
 ```
-###serialize form data
+### serialize form data
 ```
 serialize(new FormData(form));
 //retunrs json string like 
 //{name: 'john wick', email: 'example@email.com'}*```
-### Ajax function
+###  Ajax function
 ```javascript
 //makes an ajax request
 ajax({
@@ -116,19 +116,19 @@ ajax({
 	}
 })
 ```
-###cookies
+### cookies
 ```javascript
 setCookie(name, value, expirydays)
 //sets a cookie
 getCookie(cname)
 //gets a cookie
 ```
-###Get selected text
+### Get selected text
 ```javascript
 getSelectionText()
 //returns windows selected texts
 ```
-###Insert values in textarea and input that can undo with (ctrl+z)
+### Insert values in textarea and input that can undo with (ctrl+z)
 ```insertText(txt)
 //insert values in currently focused textarea/input/contenteditable div elements
 ```
