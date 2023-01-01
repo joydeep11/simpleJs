@@ -87,7 +87,7 @@ live(".btn","click",function(){
 	alert("clicked");
 })
 ```
-### serialize form data
+### Serialize form data
 ```
 serialize(new FormData(form));
 //retunrs json string like 
@@ -112,7 +112,7 @@ ajax({
 	}
 })
 ```
-### cookies
+### JavaScript cookies
 ```javascript
 setCookie(name, value, expirydays)
 //sets a cookie
