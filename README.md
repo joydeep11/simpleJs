@@ -78,6 +78,9 @@ addClass(element, className)
 ### Click events
 
 ```javascript
+on(element, event, callback )
+
+live(selector, evt, callback)
 //on  for static elements
 on(qs(".btn"),"click",function(){
 	alert("clicked");
