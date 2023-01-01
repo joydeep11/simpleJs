@@ -125,6 +125,7 @@ getSelectionText()
 //returns windows selected texts
 ```
 ### Insert values in textarea and input that can undo with (ctrl+z)
-```insertText(txt)
+```
+insertText(txt)
 //insert values in currently focused textarea/input/contenteditable div elements
 ```
