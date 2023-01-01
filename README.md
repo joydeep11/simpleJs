@@ -1,4 +1,6 @@
 # SimpleJs
+**Current Version:1.0**
+
 A lightweight JavaScript library for regular uses, to makes JavaScript simple for you.
 
 
