@@ -1,5 +1,6 @@
 # SimpleJs
-A lightweight JavaScript library for regular uses, to makes JavaScript simple for you
+A lightweight JavaScript library for regular uses, to makes JavaScript simple for you.
+For for *personal/commercial* use , MIT licence 
 
 ## How to install
 cdn
