@@ -45,19 +45,7 @@ function empty(str) {
     return false;
   }
 }
-//execute scripts
-/*/function executejs(response) {
-  if (response.match(/<script>(.*)<\/script>/)) {
-    response.match(/<script>(.*)<\/script>/).forEach(function (element){
-      log(element)
-    })
-    //script = response.replace(/<script>(.*)<\/script>/, "$1"); // Remove tags
-    //eval(script);
-  }
-  return response;
-}*/
-
-//
+//ajax
 function ajax(myObj) {
   var url = myObj["url"];
   var method = myObj["method"];
