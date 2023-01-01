@@ -209,57 +209,7 @@ function getCookie(cname) {
   }
   return "";
 }
-//selection
-/* cursor fucntions starts*/
-function setSelectionRange(input, selectionStart, selectionEnd) {
-  if (input.setSelectionRange) {
-    input.focus();
-    input.setSelectionRange(selectionStart, selectionEnd);
-  } else if (input.createTextRange) {
-    var range = input.createTextRange();
-    range.collapse(true);
-    range.moveEnd("character", selectionEnd);
-    range.moveStart("character", selectionStart);
-    range.select();
-  }
-}
 
-function cursorPosition(element) {
-  var ctl = element;
-  var startPos = ctl.selectionStart;
-  var endPos = ctl.selectionEnd;
-  return [startPos, endPos];
-}
-function SelectionTextBefore(number) {
-  var textbefore = "";
-  var activeEl = document.activeElement;
-  var activeElTagName = activeEl ? activeEl.tagName.toLowerCase() : null;
-  if (
-    activeElTagName == "textarea" ||
-    (activeElTagName == "input" &&
-      /^(?:text|search|password|tel|url)$/i.test(activeEl.type) &&
-      typeof activeEl.selectionStart == "number")
-  ) {
-    textbefore = activeEl.value.slice(
-      activeEl.selectionStart - number,
-      activeEl.selectionStart
-    );
-  }
-  return textbefore;
-}
-/*function getSelectionText() {
-  if (typeof window.getSelection === "function") {
-    //code
-    var text="";
-    var selObj = window.getSelection();
-    text = selObj;
-    var selRange = selObj.getRangeAt(0);
-  } else if (document.selection) {
-    text = document.selection.createRange().htmlText; //IE6 7 8
-  }
-  return text;
-}
-*/
 function getSelectionText() {
   var text = "";
   var activeEl = document.activeElement;
@@ -286,14 +236,7 @@ function insertText(txt) {
   //qs("textarea").value+=txt
   document.execCommand("insertText", false, txt);
 }
-function addPrefix(str, prefix) {
-  return str.replace(/.+/g, prefix + "$&");
-}
-/* cursor fucntions ends */
-//dismiss
-function dismiss(element) {
-  element.parentNode.style.display = "none";
-}
+
 //isspace
 function isspace(str) {
   if (typeof str != "undefined" && !str.replace(/\s/g, "").length) {
