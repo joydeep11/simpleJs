@@ -8,7 +8,7 @@ For those who are moving from jQuery to vanilla JavaScript
 Free for **personal/commercial** use (MIT licence)
 
 ## How to install
-cdn
+CDN
 ```html
 <script src="https://cdn.jsdelivr.net/gh/joydeep11/simpleJs/main/js/simple.js"></script>
 ```
