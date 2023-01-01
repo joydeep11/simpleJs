@@ -10,7 +10,7 @@ Free for **personal/commercial** use (MIT licence)
 ## How to install
 cdn
 ```html
-<script src=" https://cdn.jsdelivr.net/gh/joydeep11/simpleJs/main/js/simple.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/joydeep11/simpleJs/main/js/simple.js"></script>
 ```
 I do not advise using this CDN for production, but you may do so for testing.
 ## what's inside
