@@ -1,6 +1,10 @@
 # SimpleJs
 A lightweight JavaScript library for regular uses, to makes JavaScript simple for you.
+
+
 For those who are moving from jQuery to vanilla JavaScript
+
+
 Free for **personal/commercial** use , MIT licence 
 
 ## How to install
