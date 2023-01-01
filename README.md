@@ -14,7 +14,7 @@ CDN
 ```
 **or**
 you can find the main js file inside main/js folder.
-## What's inside
+## What's inside?
 There are predefined functions that you can call to perform simple tasks  ,developed for the web.
 ## Documentation
 ### Selectors
