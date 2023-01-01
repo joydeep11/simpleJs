@@ -10,7 +10,7 @@ I do not advise using this CDN for production, but you may do so for testing.
 ## what's inside
 There are predefined functions that you can call to perform simple tasks  ,developed for the web.
 ## documentation
-###selectors
+### selectors
 ```javascript
 element=qs('.cssSelector')
 //querySelector
