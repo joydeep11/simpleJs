@@ -8,12 +8,6 @@ For those who are moving from jQuery to vanilla JavaScript
 Free for **personal/commercial** use (MIT licence)
 
 ## How to install
-CDN
-```html
-<script src="https://cdn.jsdelivr.net/gh/joydeep11/simpleJs/main/js/simple.js"></script>
-```
-I do not advise using this CDN for production, but you may do so for testing.
-
 you can find the main js file inside main/js folder.
 ## What's inside
 There are predefined functions that you can call to perform simple tasks  ,developed for the web.
