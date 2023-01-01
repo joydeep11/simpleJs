@@ -15,7 +15,7 @@ CDN
 <script src="https://cdn.jsdelivr.net/gh/joydeep11/simpleJs/main/js/simple-1.0.js"></script>
 ```
 **or**
-you can find the main js file inside main/js folder.
+you can find the main js file inside main/js folder.(Always choose the latest version)
 ## What's inside?
 There are predefined functions that you can call to perform simple tasks  ,developed for the web.
 ## Documentation
