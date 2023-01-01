@@ -83,7 +83,7 @@ returns the value hello
 hasClass(element, className);
 //returns the classname
 
- removeClass(element, className);
+removeClass(element, className);
 //removes Class
 
 addClass(element, className);
