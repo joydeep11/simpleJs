@@ -18,9 +18,9 @@ There are predefined functions that you can call to perform simple tasks  ,devel
 ## Documentation
 ### Selectors
 ```javascript
-element=qs('.cssSelector');
+var element=qs('.cssSelector');
 //querySelector
-elements=qsa('.cssSelector');
+const elements=qsa('.cssSelector');
 //querySelectorAll
 /*example
 for qs
