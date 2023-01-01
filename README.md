@@ -13,10 +13,10 @@ cdn
 <script src="https://cdn.jsdelivr.net/gh/joydeep11/simpleJs/main/js/simple.js"></script>
 ```
 I do not advise using this CDN for production, but you may do so for testing.
-## what's inside
+## What's inside
 There are predefined functions that you can call to perform simple tasks  ,developed for the web.
-## documentation
-### selectors
+## Documentation
+### Selectors
 ```javascript
 element=qs('.cssSelector')
 //querySelector
@@ -33,7 +33,7 @@ empty(str)
 isspace(str)
 //returns true if string contains only spaces
 ```
-### innerHTML,append, prepend
+### InnerHTML,append, prepend
 ```javascript
 html(element,str)
 //change innerHtml 
