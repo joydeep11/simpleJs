@@ -76,17 +76,13 @@ addClass(element, className)
 //adds class
 ```
 ### Click events
- on(element, event, callback)
- for static elements
- **and**
- live(".cssSelector", event, callback)
- for dynamically generated html
+
 ```javascript
-//on
+//on  for static elements
 on(qs(".btn"),"click",function(){
 	alert("clicked");
 })
-//live
+//live  for dynamically/ajax generated html
 live(".btn","click",function(){
 	alert("clicked");
 })
