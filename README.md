@@ -97,7 +97,7 @@ live(".btn","click",function(){
 })
 ```
 ### Serialize form data
-```
+```javascript
 serialize(new FormData(form));
 //retunrs json string like 
 //{name: 'john wick', email: 'example@email.com'}
