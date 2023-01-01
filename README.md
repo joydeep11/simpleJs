@@ -100,7 +100,8 @@ live(".btn","click",function(){
 ```
 serialize(new FormData(form));
 //retunrs json string like 
-//{name: 'john wick', email: 'example@email.com'}*```
+//{name: 'john wick', email: 'example@email.com'}
+```
 ###  Ajax function
 ```javascript
 //makes an ajax request
