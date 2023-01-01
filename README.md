@@ -143,7 +143,7 @@ getCookie(cname);
 getSelectionText();
 //returns windows selected texts
 ```
-### Insert values in textarea and input that can undo with (ctrl+z)
+### Insert values in textarea and input that can be undo with (ctrl+z)
 ```javascript
 insertText(txt);
 //insert values in currently focused textarea/input/contenteditable div elements
